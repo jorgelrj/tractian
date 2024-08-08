@@ -1,0 +1,32 @@
+name: tractian
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  auto_route: ^9.2.0
+  collection: ^1.18.0
+  dart_http_client: ^0.0.2
+  equatable: ^2.0.5
+  extensions_pack: ^2.3.0+1
+  flutter: { sdk: flutter }
+  flutter_bloc: ^8.1.6
+  get_it: ^7.7.0
+  json_annotation: ^4.9.0
+  skeletonizer: ^1.4.2
+  sliver_tools: ^0.2.12
+  widgets_pack: ^0.2.11+4
+
+dev_dependencies:
+  auto_route_generator: ^9.0.0
+  build_runner: ^2.4.12
+  json_serializable: ^6.8.0
+  my_linter: ^0.1.0+3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

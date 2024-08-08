@@ -1,0 +1,6 @@
+include: package:my_linter/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - '**/*.g.dart'
+    - '**/*.gr.dart'
